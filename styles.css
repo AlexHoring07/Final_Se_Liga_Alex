@@ -4,10 +4,12 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: #2f2f2f; /* Cinza escuro para o fundo */
+    color: #e0e0e0; /* Texto em cinza claro */
 }
 
 header {
-    background-color: #004080;
+    background-color: #424242; /* Cinza escuro para o cabeçalho */
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -24,29 +26,36 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #e0e0e0; /* Link em cinza claro */
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Efeito de hover nos links de navegação */
+nav ul li a:hover {
+    color: #bdbdbd; /* Cinza médio para o hover */
 }
 
 .content-section {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background: #f4f4f4;
+    background: #616161; /* Cinza médio claro para as seções de conteúdo */
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .content-section img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+    border-radius: 8px;
 }
 
 footer {
-    background-color: #004080;
-    color: #fff;
+    background-color: #424242; /* Mesmo tom de cinza escuro para o rodapé */
+    color: #e0e0e0; /* Texto em cinza claro */
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
@@ -54,4 +63,25 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .content-section {
+        padding: 15px;
+        margin: 15px;
+        max-width: 100%;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
 }
