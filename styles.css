@@ -4,12 +4,12 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #2f2f2f; /* Cinza escuro para o fundo */
-    color: #e0e0e0; /* Texto em cinza claro */
+    background-color: #2a2a2a; /* Fundo escuro para contraste com o dourado */
+    color: #f5c500; /* Texto dourado */
 }
 
 header {
-    background-color: #424242; /* Cinza escuro para o cabeçalho */
+    background-color: #b8860b; /* Dourado escuro para o cabeçalho */
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -26,7 +26,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #e0e0e0; /* Link em cinza claro */
+    color: #f5c500; /* Link dourado */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -34,14 +34,14 @@ nav ul li a {
 
 /* Efeito de hover nos links de navegação */
 nav ul li a:hover {
-    color: #bdbdbd; /* Cinza médio para o hover */
+    color: #ffd700; /* Dourado mais claro no hover */
 }
 
 .content-section {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background: #616161; /* Cinza médio claro para as seções de conteúdo */
+    background: #4b4b4b; /* Cinza escuro para o fundo das seções */
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
@@ -54,8 +54,8 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #424242; /* Mesmo tom de cinza escuro para o rodapé */
-    color: #e0e0e0; /* Texto em cinza claro */
+    background-color: #b8860b; /* Mesmo tom dourado escuro para o rodapé */
+    color: #fff;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
