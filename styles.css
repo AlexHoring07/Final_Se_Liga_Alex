@@ -5,7 +5,7 @@ body {
     padding: 0;
     line-height: 1.6;
     background-color: #2a2a2a; /* Fundo escuro para contraste com o dourado */
-    color: #f5c500; /* Texto dourado */
+    color: #ffffff; /* Texto branco */
 }
 
 header {
@@ -26,7 +26,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #f5c500; /* Link dourado */
+    color: #ffffff; /* Link branco */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -80,6 +80,11 @@ footer p {
         margin: 15px;
         max-width: 100%;
     }
+
+    footer p {
+        font-size: 12px;
+    }
+}
 
     footer p {
         font-size: 12px;
